@@ -19,6 +19,13 @@ body {
   color: lightblue;
 }
 
+.youtubeimg {
+  height: 100%;
+  width: 17%;
+  background-color: white;
+  overflow-y: hidden;
+}
+
 main {
   display: flex;
   height: calc(100vh - 70px);
