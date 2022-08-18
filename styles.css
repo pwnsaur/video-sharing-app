@@ -20,8 +20,8 @@ body {
 }
 
 main {
-  height: calc(100vh - 70px);
   display: flex;
+  height: calc(100vh - 70px);
   background-color: #f9f9f9;
 }
 
@@ -124,10 +124,11 @@ hr {
 }
 
 .videos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
 }
 
 .video {
