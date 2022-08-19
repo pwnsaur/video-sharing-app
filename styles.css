@@ -275,3 +275,13 @@ span {
     color: rgb(223, 211, 211);
   }
 }
+
+.footer {
+  text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 11px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
