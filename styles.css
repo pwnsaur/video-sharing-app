@@ -252,6 +252,9 @@ span {
   .side-bar {
     background-color: #282828;
   }
+  .side-bar a span {
+    color: #030303;
+  }
 
   .title h3 {
     color: white;
@@ -274,4 +277,14 @@ span {
   span {
     color: rgb(223, 211, 211);
   }
+}
+
+.footer {
+  text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 11px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
