@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -262,12 +266,9 @@ span {
     border: 1px solid rgb(63, 62, 62);
   }
 
-  .search form button {
-    background-color: rgb(51, 49, 49);
-  }
-
+  .search form button,
   hr {
-    background-color: rgb(61, 58, 58);
+    background-color: rgb(51, 49, 49);
   }
 
   span {
