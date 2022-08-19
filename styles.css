@@ -24,9 +24,8 @@ body {
 }
 
 .youtubeimg {
-  height: 250%;
-  width: 250%;
-  background-color: white;
+  height: 20px;
+  width: 80px;
   overflow-y: hidden;
 }
 
