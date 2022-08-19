@@ -79,12 +79,12 @@ input:focus {
 }
 
 .mic {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .material-icons {
   color: #030303;
-  padding: 0 7px;
+  padding: 7 7px;
   cursor: pointer;
 }
 .yellow-icon{
