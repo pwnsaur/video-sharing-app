@@ -213,15 +213,7 @@ span {
   font-size: 12px;
 }
 
-.footer {
-  text-align: center;
-  background-color: whitesmoke;
-  color: black;
-  padding-top: 11px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+
 
 @media (max-width: 768px) {
   .side-bar {
