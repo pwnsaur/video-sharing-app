@@ -290,10 +290,17 @@ span {
 
 .footer {
   text-align: center;
-  background-color: #212121;
+  background-color: #2121;
   color: white;
   padding-top: 11px;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  .footer {
+    background-color: white;
+    color: black;
+  }
 }
