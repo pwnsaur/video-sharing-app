@@ -281,10 +281,10 @@ span {
 
 .footer {
   text-align: center;
-    background-color: whitesmoke;
-    color: black;
-    padding-top: 11px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: whitesmoke;
+  color: black;
+  padding-top: 11px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
