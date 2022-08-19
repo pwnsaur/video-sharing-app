@@ -13,10 +13,17 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   height: 60px;
-  padding: 15px;
+  padding: 8px;
   color: lightblue;
+}
+
+.youtubeimg {
+  height: 250%;
+  width: 250%;
+  background-color: white;
+  overflow-y: hidden;
 }
 
 main {
@@ -72,13 +79,30 @@ input:focus {
 }
 
 .mic {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .material-icons {
-  color: rgb(100, 100, 100);
-  padding: 0 7px;
+  color: #030303;
+  padding: 7 7px;
   cursor: pointer;
+}
+.yellow-icon {
+  color: #fdb913;
+}
+.green-icon {
+  color: #006a44;
+}
+.red-icon {
+  color: #c1272d;
+}
+.youtube-red-color {
+  color: #ff0000;
+}
+.copyright {
+  font-size: 12px;
+  color: #909090;
+  padding: 12px 25px;
 }
 
 .nav {
@@ -107,7 +131,11 @@ input:focus {
 .active {
   background: #e5e5e5;
 }
-
+.aside-titles {
+  font-size: 14px;
+  color: #606060;
+  text-transform: uppercase;
+}
 hr {
   height: 1px;
   background-color: #e5e5e5;
