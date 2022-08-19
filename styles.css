@@ -291,8 +291,8 @@ span {
 
 .footer {
   text-align: center;
-  background-color: whitesmoke;
-  color: black;
+  background-color: #212121;
+  color: white;
   padding-top: 11px;
   position: fixed;
   bottom: 0;
