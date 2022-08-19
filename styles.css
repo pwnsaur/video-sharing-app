@@ -293,7 +293,7 @@ span {
   background-color: #2121;
   color: white;
   padding-top: 11px;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
